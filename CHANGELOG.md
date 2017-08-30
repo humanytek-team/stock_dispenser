@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ## [Unreleased]
 
 
+## [1.1.0] - 2017-08-30
+### added
+- Adds field stock_picking_ids to the model res.users, this field allows get the pickings asociated to warehouse dispensers.
+
 ## [1.0.0] - 2017-08-30
 ### added
 - Adds "Dispenser" field to document of stock picking. Assuming that the

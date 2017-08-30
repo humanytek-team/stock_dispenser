@@ -20,21 +20,11 @@
 #
 ###############################################################################
 
-{
-    'name': 'Add "Dispenser" field to document of stock picking',
-    'description': """
-    Adds "Dispenser" field to document of stock picking. Assuming that the
-    dispenser can be a user in Inventory / User group. This field can only be
-    edited by the users in Inventory / Manager group.
-    """,
-    'author': "Humanytek",
-    'website': "http://www.humanytek.com",
-    'category': 'Stock',
-    'version': '1.1.0',
-    'depends': ['stock', 'stock_is_stock_user'],
-    'data': [
-        'views/stock_picking_view.xml',
-    ],
-    'demo': [
-    ],
-}
+from openerp import fields, models
+
+
+class ResuUsers(models.Model):
+    _inherit = 'res.users'
+
+    stock_picking_ids = fields.One2many(
+        'stock.picking', 'dispenser_user_id', 'Stock pickings')
