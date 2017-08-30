@@ -20,5 +20,11 @@
 #
 ###############################################################################
 
-import res_users
-import stock_picking
+from openerp import fields, models
+
+
+class ResuUsers(models.Model):
+    _inherit = 'res.users'
+
+    stock_picking_ids = fields.One2many(
+        'stock.picking', 'dispenser_user_id', 'Stock pickings')
