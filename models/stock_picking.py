@@ -30,3 +30,25 @@ class StockPicking(models.Model):
         comodel_name='res.users',
         string='Dispenser',
         domain=[('is_stock_user', '=', True)])
+
+    env_user_is_stock_manager = fields.Boolean(
+        string='Is a stock manager?',
+        compute='_compute_is_stock_manager',
+        search='_search_env_user_is_stock_manager')
+
+    def _compute_is_stock_manager(self):
+        """ Computes value of field env_user_is_stock_manager """
+
+        for sp in self:
+            sp.env_user_is_stock_manager = self.user_has_groups(
+                'stock.group_stock_manager')
+
+    def _search_env_user_is_stock_manager(self, operator, value):
+        """ Computes the search operation in field env_user_is_stock_manager"""
+
+        stock_picking_ids = list()
+        env_user_is_stock_manager = self.user_has_groups(
+            'stock.group_stock_manager')
+        if env_user_is_stock_manager:
+            stock_picking_ids = self.search([]).mapped('id')
+        return [('id', 'in', stock_picking_ids)]

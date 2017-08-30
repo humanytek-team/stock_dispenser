@@ -9,7 +9,10 @@
             <field name="arch" type="xml">
 
                 <field name="picking_type_id" position="after">
-                  <field name="dispenser_user_id"/>
+                  <field name="env_user_is_stock_manager" invisible="1"/>
+                  <field
+                    name="dispenser_user_id"
+                    attrs="{'readonly': [('env_user_is_stock_manager', '=', False)]}"/>
                 </field>
 
             </field>
