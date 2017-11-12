@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+    <data>
+
+      <record id="view_stock_dispenser_form" model="ir.ui.view">
+          <field name="name">stock.dispenser.form</field>
+          <field name="model">stock.dispenser</field>
+          <field name="priority">1</field>
+          <field name="arch" type="xml">
+              <form string="Dispensers">
+                  <sheet>
+                      <field name="id" invisible="1"/>
+                      <div class="oe_form_box_info oe_text_center" style="margin-bottom: 10px" attrs="{'invisible': [('id', '>', 0)]}">
+                          You are creating a new user dispenser. After saving, the user will receive an invite email containing a link to set its password.
+                      </div>
+                      <field name="image" widget='image' class="oe_avatar" options='{"preview_image": "image_medium"}'/>
+                      <div class="oe_title">
+                          <label for="name" class="oe_edit_only"/>
+                          <h1><field name="name" required="1"/></h1>
+                          <label for="email" string="Email"/>
+                          <field name="email" placeholder="email@yourcompany.com" />
+                          <br />
+                          <label for="login" string="Username"/>
+                          <h2>
+                              <field
+                                name="login"
+                                placeholder="email@yourcompany.com"/>
+                          </h2>
+                          <label for="company_id" class="oe_edit_only" groups="base.group_light_multi_company"/>
+                          <field name="company_id" context="{'user_preference': 0}" groups="base.group_light_multi_company"/>
+                      </div>
+                      <group>
+                          <label for="groups_id" string="Access Rights"
+                                  attrs="{'invisible': [('id', '>', 0)]}"/>
+                          <div attrs="{'invisible': [('id', '>', 0)]}">
+                              <field name="groups_id" readonly="1" widget="many2many_tags" style="display: inline;"/> You will be able to define additional access rights by editing the newly created user under the Settings / Users menu.
+                          </div>
+                          <field name="phone" widget="phone"/>
+                          <field name="mobile" widget="phone"/>
+                          <field name="fax"/>
+                      </group>
+                  </sheet>
+              </form>
+          </field>
+      </record>
+
+      <record id="view_stock_dispenser_tree" model="ir.ui.view">
+          <field name="name">stock.dispenser.tree</field>
+          <field name="model">stock.dispenser</field>
+          <field name="arch" type="xml">
+              <tree>
+                  <field name="name"/>
+                  <field name="login"/>
+                  <field name="login_date"/>
+                  <field name="active"/>
+              </tree>
+          </field>
+      </record>
+
+      <record id="view_stock_dispenser_search" model="ir.ui.view">
+          <field name="name">stock.dispenser.search</field>
+          <field name="model">stock.dispenser</field>
+          <field name="arch" type="xml">
+              <search string="Dispensers">
+                  <field name="name" filter_domain="['|', '|', ('name','ilike',self), ('login','ilike',self), ('email','ilike',self)]" string="Dispenser"/>
+                  <field name="company_ids" string="Company" groups="base.group_light_multi_company"/>
+                  <filter name="Inactive" string="Inactive Dispensers" domain="[('active','=',False)]"/>
+              </search>
+          </field>
+      </record>
+
+      <record model="ir.actions.act_window" id="action_stock_dispenser">
+          <field name="name">Dispensers</field>
+          <field name="res_model">stock.dispenser</field>
+          <field name="view_type">form</field>
+          <field name="view_mode">tree,form</field>
+          <field name="context">{'active_test': False}</field>
+      </record>
+
+      <menuitem
+          name="Dispensers"
+          id="menu_stock_dispenser"
+          action="action_stock_dispenser"
+          parent="stock.menu_stock_config_settings"/>
+
+    </data>
+</openerp>
