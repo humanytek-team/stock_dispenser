@@ -1,0 +1,1046 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* stock_dispenser
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 9.0e-20170815\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-11-12 20:33+0000\n"
+"PO-Revision-Date: 2017-11-12 16:41-0400\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: es_MX\n"
+"X-Generator: Poedit 1.8.11\n"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_supplier_invoice_count
+msgid "# Vendor Bills"
+msgstr "# Cunetas de Vendedor"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_purchase_order_count
+msgid "# of Purchase Order"
+msgstr "Nº de pedido de compra"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_sale_order_count
+msgid "# of Sales Order"
+msgstr "Número de pedido de venta"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,help:stock_dispenser.field_stock_dispenser_alias_defaults
+msgid "A Python dictionary that will be evaluated to provide default values when creating new records for this alias."
+msgstr "Un diccionario de Python que será evaluada para proporcionar valores por defecto al crear nuevos registros para este alias."
+
+#. module: stock_dispenser
+#: model:ir.ui.view,arch_db:stock_dispenser.view_stock_dispenser_form
+msgid "Access Rights"
+msgstr "Permisos de acceso"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_property_account_payable_id
+msgid "Account Payable"
+msgstr "Cuentas por pagar."
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_property_account_receivable_id
+msgid "Account Receivable"
+msgstr "Cuentas por Cobrar"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_message_needaction
+msgid "Action Needed"
+msgstr "Acción Requerida"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_active
+msgid "Active"
+msgstr "Activo"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_type
+msgid "Address Type"
+msgstr "Tipo de dirección"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_alias_id
+msgid "Alias"
+msgstr "Alias"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_alias_contact
+msgid "Alias Contact Security"
+msgstr "Alias de Contrato de Seguridad"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_alias_name
+msgid "Alias Name"
+msgstr "Nombre Alias"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_alias_domain
+msgid "Alias domain"
+msgstr "Alias del dominio"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_alias_model_id
+msgid "Aliased Model"
+msgstr "Modelo Alias"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,help:stock_dispenser.field_stock_dispenser_partner_bank_company_id
+msgid "Allows to indicate the bank account of the company to which the customer probably makes the payments"
+msgstr "Permite indicar la cuenta bancaria de la compania a la cual probablemente el cliente haga los pagos"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_chatter_needaction_auto
+msgid "Automatically set needaction as Read"
+msgstr "Establece automáticamente \"needaction\" como \"Read\""
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_bank_account_count
+msgid "Bank"
+msgstr "Banco"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_partner_bank_company_id
+msgid "Bank account of payments"
+msgstr "Cuenta bancaria de pagos"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_bank_ids
+msgid "Banks"
+msgstr "Bancos"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_barcode
+msgid "Barcode"
+msgstr "Código de barras"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_birthdate
+msgid "Birthdate"
+msgstr "Fecha de nacimiento"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_channel_ids
+msgid "Channels"
+msgstr "Canales"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,help:stock_dispenser.field_stock_dispenser_is_company
+msgid "Check if the contact is a company, otherwise it is a person"
+msgstr "Marque esta casilla si el contacto es una compañía. En caso contrario, será una persona."
+
+#. module: stock_dispenser
+#: model:ir.model.fields,help:stock_dispenser.field_stock_dispenser_customer
+msgid "Check this box if this contact is a customer."
+msgstr "Marque esta casilla si este contacto es un cliente."
+
+#. module: stock_dispenser
+#: model:ir.model.fields,help:stock_dispenser.field_stock_dispenser_supplier
+msgid "Check this box if this contact is a vendor. If it's not checked, purchase people will not see it when encoding a purchase order."
+msgstr "Marque esta casilla si el contacto es un proveedor. Si no está marcada, el equipo de compras no lo verá cuando esté haciendo una orden de compra."
+
+#. module: stock_dispenser
+#: model:ir.model.fields,help:stock_dispenser.field_stock_dispenser_employee
+msgid "Check this box if this contact is an Employee."
+msgstr "Marque si el contacto es un empleado"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_city
+msgid "City"
+msgstr "Ciudad"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_color
+msgid "Color Index"
+msgstr "Índice de colores"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_commercial_partner_id
+msgid "Commercial Entity"
+msgstr "Entidad Comercial"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_company_ids
+msgid "Companies"
+msgstr "Compañías"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_ref_company_ids
+msgid "Companies that refers to partner"
+msgstr "Las empresas que se refiere a la pareja"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_company_id
+#: model:ir.ui.view,arch_db:stock_dispenser.view_stock_dispenser_search
+msgid "Company"
+msgstr "Compañía"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_company_type
+msgid "Company Type"
+msgstr "Tipo de compañía"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_contact_address
+msgid "Complete Address"
+msgstr "Dirección completa"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_child_ids
+msgid "Contacts"
+msgstr "Contactos"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_contract_ids
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_contracts_count
+msgid "Contracts"
+msgstr "Contratos"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_payment_method_count
+msgid "Count Payment Method"
+msgstr "Cuenta Metodo de Pago"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_country_id
+msgid "Country"
+msgstr "País"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_create_date
+msgid "Created on"
+msgstr "Creado en"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_credit_limit
+msgid "Credit Limit"
+msgstr "Crédito concedido"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_credit_available
+msgid "Credit available"
+msgstr "Crédito disponible"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_credit_expired
+msgid "Credit expired"
+msgstr "Crédito expirado"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_credit_ignore
+msgid "Credit ignore"
+msgstr "Permitir sobre pasar límite de crédito"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_credit_used
+msgid "Credit used"
+msgstr "Crédito utilizado"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_currency_id
+msgid "Currency"
+msgstr "Dinero corriente"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_property_stock_customer
+msgid "Customer Location"
+msgstr "Ubicación del Cliente"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_property_payment_term_id
+msgid "Customer Payment Term"
+msgstr "Términos de Pago del Cliente"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_date
+msgid "Date"
+msgstr "Fecha"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,help:stock_dispenser.field_stock_dispenser_message_last_post
+msgid "Date of the last message posted on the record."
+msgstr "Fecha de último trabajo realizado en esta cuenta"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_alias_defaults
+msgid "Default Values"
+msgstr "Valores por Omisión"
+
+#. module: stock_dispenser
+#: model:ir.ui.view,arch_db:stock_dispenser.view_stock_dispenser_search
+msgid "Dispenser"
+msgstr "Surtidor"
+
+#. module: stock_dispenser
+#: model:ir.actions.act_window,name:stock_dispenser.action_stock_dispenser
+#: model:ir.ui.menu,name:stock_dispenser.menu_stock_dispenser
+#: model:ir.ui.view,arch_db:stock_dispenser.view_stock_dispenser_form
+#: model:ir.ui.view,arch_db:stock_dispenser.view_stock_dispenser_search
+msgid "Dispensers"
+msgstr "Surtidores"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_display_name
+msgid "Display Name"
+msgstr "Nombre desplegado"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_email
+#: model:ir.ui.view,arch_db:stock_dispenser.view_stock_dispenser_form
+msgid "Email"
+msgstr "Correo electrónico"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_notify_email
+msgid "Email Messages and Notifications"
+msgstr "Enviar mensajes y notificaciones"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,help:stock_dispenser.field_stock_dispenser_alias_id
+msgid "Email address internally associated with this user. Incoming emails will appear in the user's notifications."
+msgstr "Correo electrónico interno asociado al usuario. Los correo entrantes aparecerán como notificaciones de usuario."
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_employee
+msgid "Employee"
+msgstr "Empleado"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_password_crypt
+msgid "Encrypted Password"
+msgstr "Password Encriptado"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_expired_ignore
+msgid "Expired ignore"
+msgstr "Permitir vender a crédito con saldo vencido"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,help:stock_dispenser.field_stock_dispenser_share
+msgid "External user with limited access, created only for the purpose of sharing data."
+msgstr "Usuario externo con acceso limitado, creado sólamente con el propósito de compartir datos."
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_fax
+msgid "Fax"
+msgstr "Fax"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_property_account_position_id
+msgid "Fiscal Position"
+msgstr "Posición fiscal"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_message_follower_ids
+msgid "Followers"
+msgstr "Seguidores"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_message_channel_ids
+msgid "Followers (Channels)"
+msgstr "Seguidores"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_message_partner_ids
+msgid "Followers (Partners)"
+msgstr "Seguidores (Socios)"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_grace_days
+msgid "Grace days"
+msgstr "Días de gracia"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_groups_id
+msgid "Groups"
+msgstr "Grupos"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_has_unreconciled_entries
+msgid "Has unreconciled entries"
+msgstr "Tiene entradas no conciliadas"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_action_id
+msgid "Home Action"
+msgstr "Acción inicial"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_id
+msgid "ID"
+msgstr "ID"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,help:stock_dispenser.field_stock_dispenser_alias_parent_thread_id
+msgid "ID of the parent record holding the alias (example: project holding the task creation alias)"
+msgstr "ID del registro padre que tiene el seudónimo. (ejemplo: el proyecto que contiene el seudónimo para la creación de tareas)"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_im_status
+msgid "IM Status"
+msgstr "Estatus IM"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,help:stock_dispenser.field_stock_dispenser_message_unread
+msgid "If checked new messages require your attention."
+msgstr "Si se marca, los nuevos mensajes requieren su atención"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,help:stock_dispenser.field_stock_dispenser_message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "Si está marcado, hay nuevos mensajes que requieren su atención"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,help:stock_dispenser.field_stock_dispenser_opt_out
+msgid "If opt-out is checked, this contact has refused to receive emails for mass mailing and marketing campaign. Filter 'Available for Mass Mailing' allows users to filter the partners when performing mass mailing."
+msgstr "Si 'No acepta mensajes' está marcado, este contacto ha rehusado recibir correos electrónicos de envíos masivos y campañas de marketing. El filtro 'Disponible para envíos masivos' permite a los usuarios filtrar a las empresas cuando se realicen envíos masivos."
+
+#. module: stock_dispenser
+#: model:ir.model.fields,help:stock_dispenser.field_stock_dispenser_action_id
+msgid "If specified, this action will be opened at log on for this user, in addition to the standard menu."
+msgstr "Si se especifica, esta acción será ejecutada cuando este usuario entre en el sistema, en adicción al menú estándar."
+
+#. module: stock_dispenser
+#: model:ir.model.fields,help:stock_dispenser.field_stock_dispenser_lang
+msgid "If the selected language is loaded in the system, all documents related to this contact will be printed in this language. If not, it will be English."
+msgstr "Si el idioma seleccionado está cargado en el sistema, todos los documentos relacionados con el contacto se imprimirán en este idioma. Si no, se imprimirán en inglés."
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_image
+msgid "Image"
+msgstr "Imágen"
+
+#. module: stock_dispenser
+#: model:ir.ui.view,arch_db:stock_dispenser.view_stock_dispenser_search
+msgid "Inactive Dispensers"
+msgstr "Surtidores inactivos"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_ref
+msgid "Internal Reference"
+msgstr "Referencia Interna"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_invoice_ids
+msgid "Invoices"
+msgstr "Facturas"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_message_is_follower
+msgid "Is Follower"
+msgstr "Es un Seguidor"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_is_company
+msgid "Is a Company"
+msgstr "Es una compañia"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_customer
+msgid "Is a Customer"
+msgstr "Es un Cliente"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_supplier
+msgid "Is a Vendor"
+msgstr "Es un Proveedor"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_is_stock_user
+msgid "Is a stock user?"
+msgstr "Es un usuario de stock ?"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_function
+msgid "Job Position"
+msgstr "Puesto de trabajo"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_issued_total
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_journal_item_count
+msgid "Journal Items"
+msgstr "Apuntes contables"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_lang
+msgid "Language"
+msgstr "Idioma"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_message_last_post
+msgid "Last Message Date"
+msgstr "Fecha de último mensaje"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser___last_update
+msgid "Last Modified on"
+msgstr "Ultima modificacion realizada"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_write_uid
+msgid "Last Updated by"
+msgstr "Ultima actualizacion por"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_write_date
+msgid "Last Updated on"
+msgstr "Ultima actualización realizada"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,help:stock_dispenser.field_stock_dispenser_last_time_entries_checked
+msgid "Last time the invoices & payments matching was performed for this partner. It is set either if there's not at least an unreconciled debit and an unreconciled credit or if you click the \"Done\" button."
+msgstr "La última vez que la facturas y pagos a juego se realizó para esta pareja. Se encuentra ya sea si hay al menos no un débito sin reconciliarse y un crédito sin reconciliarse o si hace clic en el botón \"Done\"."
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_last_time_entries_checked
+msgid "Latest Invoices & Payments Matching Date"
+msgstr "Últimas Facturas y Fecha de Pagos Validadas"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_login_date
+msgid "Latest connection"
+msgstr "Última conexión"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_login
+msgid "Login"
+msgstr "Usuario"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_image_medium
+msgid "Medium-sized image"
+msgstr "Imagen de Tamaño-Medio"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,help:stock_dispenser.field_stock_dispenser_image_medium
+msgid "Medium-sized image of this contact. It is automatically resized as a 128x128px image, with aspect ratio preserved. Use this field in form views or some kanban views."
+msgstr "Imagen mediana de este contacto. Se redimensiona automáticamente a 128x128 px, con el ratio de aspecto preservado. Se usa este campo en las vistas formulario y en algunas vistas kanban."
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_message_ids
+msgid "Messages"
+msgstr "Mensajes"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_mobile
+msgid "Mobile"
+msgstr "Móvil"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_name
+msgid "Name"
+msgstr "Nombre"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_payment_next_action
+msgid "Next Action"
+msgstr "Próxima acción"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_payment_next_action_date
+msgid "Next Action Date"
+msgstr "Fecha próxima acción"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,help:stock_dispenser.field_stock_dispenser_payment_next_action
+msgid "Note regarding the next action."
+msgstr "Nota en relación con la siguiente acción."
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_comment
+msgid "Notes"
+msgstr "Notas"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_message_needaction_counter
+msgid "Number of Actions"
+msgstr "Número de acciones"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,help:stock_dispenser.field_stock_dispenser_message_needaction_counter
+msgid "Number of messages which requires an action"
+msgstr "Número de mensajes que requieren una acción"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,help:stock_dispenser.field_stock_dispenser_message_unread_counter
+msgid "Number of unread messages"
+msgstr "Número de mensajes sin leer"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_opt_out
+msgid "Opt-Out"
+msgstr "No acepta recibir emails"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,help:stock_dispenser.field_stock_dispenser_alias_force_thread_id
+msgid "Optional ID of a thread (record) to which all incoming messages will be attached, even if they did not reply to it. If set, this will disable the creation of new records completely."
+msgstr "Id. opcional de un hilo (registro) al que todos los mensajes entrantes serán adjuntados, incluso si no fueron respuestas del mismo. Si se establece, se deshabilitará completamente la creación de nuevos registros."
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_alias_user_id
+msgid "Owner"
+msgstr "Propietario"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_alias_parent_model_id
+msgid "Parent Model"
+msgstr "Modelo padre"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_alias_parent_thread_id
+msgid "Parent Record Thread ID"
+msgstr "ID del hilo del registro padre"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,help:stock_dispenser.field_stock_dispenser_alias_parent_model_id
+msgid "Parent model holding the alias. The model holding the alias reference is not necessarily the model given by alias_model_id (example: project (parent_model) and task (model))"
+msgstr "Modelo padre que contiene el alias. El modelo que contiene la referencia alias no es necesariamente el modelo dado por alias_model_id (example: project (parent_model) and task (model))"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_parent_name
+msgid "Parent name"
+msgstr "Nombre del padre"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,help:stock_dispenser.field_stock_dispenser_partner_id
+msgid "Partner-related data of the user"
+msgstr "Datos del usuario relativos a la empresa"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_password
+msgid "Password"
+msgstr "Contraseña"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_debit_limit
+msgid "Payable Limit"
+msgstr "Límite de Pago"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_payment_method_ids
+msgid "Payment Methods"
+msgstr "Métodos de Pago"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_phone
+msgid "Phone"
+msgstr "Teléfono"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,help:stock_dispenser.field_stock_dispenser_alias_contact
+msgid ""
+"Policy to post a message on the document using the mailgateway.\n"
+"- everyone: everyone can post\n"
+"- partners: only authenticated partners\n"
+"- followers: only followers of the related document or members of following channels\n"
+msgstr ""
+"Política para publicar un mensaje en el documento utilizando el servidor de correo.\n"
+"- todo el mundo: todos pueden publicar\n"
+"- socios: sólo socios autenticados\n"
+"- seguidores: sólo seguidores del documento relacionado o miembros de los siguientes canales\n"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,help:stock_dispenser.field_stock_dispenser_notify_email
+msgid ""
+"Policy to receive emails for new messages pushed to your personal Inbox:\n"
+"- Never: no emails are sent\n"
+"- All Messages: for every notification you receive in your Inbox"
+msgstr ""
+"Política para recibir correos electrónicos para los nuevos mensajes insertados en su bandeja de entrada personal\n"
+"- Nunca: No se enviará ningún correo\n"
+"- Todos los mensajes: Se enviará un correo para cada notificación que reciba en su bandeja de entrada"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_alias_force_thread_id
+msgid "Record Thread ID"
+msgstr "Id. del hijo de registro"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_parent_id
+msgid "Related Company"
+msgstr "Empresa relacionada"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_partner_id
+msgid "Related Partner"
+msgstr "Empresa relacionada"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_employee_ids
+msgid "Related employees"
+msgstr "Empleados relacionados"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_property_product_pricelist
+msgid "Sale Pricelist"
+msgstr "Tarifa de venta"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_sale_order_ignore
+msgid "Sale order ignore"
+msgstr "Ignorar ventas sin facturar"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_sale_order_ids
+msgid "Sales Order"
+msgstr "Pedido de venta"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_sale_team_id
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_team_id
+msgid "Sales Team"
+msgstr "Equipo de ventas"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,help:stock_dispenser.field_stock_dispenser_use_parent_address
+msgid "Select this if you want to set company's address information  for this contact"
+msgstr "Seleccione esto si quiere establecer la información de la dirección de la compañía para este contacto"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_new_password
+msgid "Set Password"
+msgstr "Establecer contraseña"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_share
+msgid "Share User"
+msgstr "Compartir usuario"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_signature
+msgid "Signature"
+msgstr "Firma"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_signup_expiration
+msgid "Signup Expiration"
+msgstr "Expiración del ingreso"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_signup_token
+msgid "Signup Token"
+msgstr "Registra Token"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_signup_type
+msgid "Signup Token Type"
+msgstr "Tipo de la palabra de ingreso"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_signup_valid
+msgid "Signup Token is Valid"
+msgstr "La palabra de ingreso es válida"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_signup_url
+msgid "Signup URL"
+msgstr "URL de ingreso"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_image_small
+msgid "Small-sized image"
+msgstr "Imagen pequeña"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,help:stock_dispenser.field_stock_dispenser_image_small
+msgid "Small-sized image of this contact. It is automatically resized as a 64x64px image, with aspect ratio preserved. Use this field anywhere a small image is required."
+msgstr "Imagen de tamaño pequeño de este contacto. Se redimensiona automáticamente a 64x64 px, con el ratio de aspecto preservado. Use este campo donde se requiera una imagen pequeña."
+
+#. module: stock_dispenser
+#: model:ir.model.fields,help:stock_dispenser.field_stock_dispenser_new_password
+msgid "Specify a value only when creating a user or if you're changing the user's password, otherwise leave empty. After a change of password, the user has to login again."
+msgstr "Especifique un valor sólo cuando esté creando un usuario o si está cambiando la contraseña del mismo. En otro caso déjelo vacío. Después de un cambio de contraseña,  el usuario debe iniciar sesión de nuevo."
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_state_id
+msgid "State"
+msgstr "Estado"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_state
+msgid "Status"
+msgstr "Status"
+
+#. module: stock_dispenser
+#: model:ir.model,name:stock_dispenser.model_stock_dispenser
+msgid "Stock Dispensers"
+msgstr "Surtidores"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_stock_picking_ids
+msgid "Stock pickings"
+msgstr "Transferencias"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_street
+msgid "Street"
+msgstr "Calle"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_street2
+msgid "Street2"
+msgstr "Calle2"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_property_purchase_currency_id
+msgid "Supplier Currency"
+msgstr "Moneda del porveedor"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_vat
+msgid "TIN"
+msgstr "NIF"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_category_id
+msgid "Tags"
+msgstr "Etiquetas"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,help:stock_dispenser.field_stock_dispenser_vat
+msgid "Tax Identification Number. Fill it if the company is subjected to taxes. Used by the some of the legal statements."
+msgstr "Número de identificación fiscal. Llénelo si la compañía esta sujeta a impuestos. Usado por algunos documentos legales."
+
+#. module: stock_dispenser
+#: model:ir.model.fields,help:stock_dispenser.field_stock_dispenser_company_type
+msgid "Technical field, used only to display a boolean using a radio button. As for Odoo v9 RadioButton cannot be used on boolean fields, this one serves as interface. Due to the old API limitations with interface function field, we implement it by hand instead of a true function field. When migrating to the new API the code should be simplified. Changing thecompany_type of a company contact into a company will not displaythis contact as a company contact but as a standalone company."
+msgstr "Technical field, used only to display a boolean using a radio button. As for Odoo v9 RadioButton cannot be used on boolean fields, this one serves as interface. Due to the old API limitations with interface function field, we implement it by hand instead of a true function field. When migrating to the new API the code should be simplified. Changing thecompany_type of a company contact into a company will not displaythis contact as a company contact but as a standalone company."
+
+#. module: stock_dispenser
+#: model:ir.model.fields,help:stock_dispenser.field_stock_dispenser_company_id
+msgid "The company this user is currently working for."
+msgstr "La compañía para la cual trabaja este usuario actualmente."
+
+#. module: stock_dispenser
+#: model:ir.model.fields,help:stock_dispenser.field_stock_dispenser_payment_next_action_date
+msgid "The date before which no action should be taken."
+msgstr "La fecha antes de la cual se debe tomar ninguna acción."
+
+#. module: stock_dispenser
+#: model:ir.model.fields,help:stock_dispenser.field_stock_dispenser_property_account_position_id
+msgid "The fiscal position will determine taxes and accounts used for the partner."
+msgstr "La posición fiscal determinará los impuestos y las cuentas utilizadas para el socio."
+
+#. module: stock_dispenser
+#: model:ir.model.fields,help:stock_dispenser.field_stock_dispenser_alias_model_id
+msgid "The model (Odoo Document Kind) to which this alias corresponds. Any incoming email that does not reply to an existing record will cause the creation of a new record of this model (e.g. a Project Task)"
+msgstr "El modelo (Tipo de documento de Odoo) al que corresponde este seudónimo. Cualquier correo entrante que no sea respuesta a un registro existente, causará la creación de un nuevo registro de este modelo (por ejemplo, una tarea de proyecto)."
+
+#. module: stock_dispenser
+#: model:ir.model.fields,help:stock_dispenser.field_stock_dispenser_alias_name
+msgid "The name of the email alias, e.g. 'jobs' if you want to catch emails for <jobs@example.odoo.com>"
+msgstr "El nombre de este seudónimo de correo electrónico. Por ejemplo, \"trabajos\",  si lo que quiere es obtener los correos para <trabajos@example.odoo.com>."
+
+#. module: stock_dispenser
+#: model:ir.model.fields,help:stock_dispenser.field_stock_dispenser_alias_user_id
+msgid "The owner of records created upon receiving emails on this alias. If this field is not set the system will attempt to find the right owner based on the sender (From) address, or will use the Administrator account if no system user is found for that address."
+msgstr "El propietario de los registros creados al recibir correos electrónicos en este alias. Si el campo no está establecido, el sistema tratará de encontrar el propietario adecuado basado en la dirección del emisor (De), o usará la cuenta de administrador si no se encuentra un usuario para esa dirección."
+
+#. module: stock_dispenser
+#: model:ir.model.fields,help:stock_dispenser.field_stock_dispenser_has_unreconciled_entries
+msgid "The partner has at least one unreconciled debit and credit since last time the invoices & payments matching was performed."
+msgstr "La pareja tiene al menos una de débito y el crédito no está conciliado desde la última vez que se realizó la facturas y los pagos fueron concordados cuando se realizaron"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,help:stock_dispenser.field_stock_dispenser_tz
+msgid "The partner's timezone, used to output proper date and time values inside printed reports. It is important to set a value for this field. You should use the same timezone that is otherwise used to pick and render date and time values: your computer's timezone."
+msgstr "Zona horaria de la empresa, usada para mostrar la fecha y hora adecuadas en los informes. Es importante establecer un valor para este campo. Debería usar la misma zona horaria que se coge en cualquier caso para mostrar los valores de fecha y hora: la zona horaria de su ordenador."
+
+#. module: stock_dispenser
+#: model:ir.model.fields,help:stock_dispenser.field_stock_dispenser_property_account_payable_id
+msgid "This account will be used instead of the default one as the payable account for the current partner"
+msgstr "Esta cuenta se utiliza en lugar de la predeterminada como la cuenta por pagar por el actual pareja"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,help:stock_dispenser.field_stock_dispenser_property_account_receivable_id
+msgid "This account will be used instead of the default one as the receivable account for the current partner"
+msgstr "Esta cuenta se utiliza en lugar de la predeterminada como la cuenta por cobrar por la pareja actual"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,help:stock_dispenser.field_stock_dispenser_property_purchase_currency_id
+msgid "This currency will be used, instead of the default one, for purchases from the current partner"
+msgstr "Se utilizará esta moneda, en lugar de la predeterminada, para las compras de la pareja actual"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,help:stock_dispenser.field_stock_dispenser_image
+msgid "This field holds the image used as avatar for this contact, limited to 1024x1024px"
+msgstr "Este campo contiene la imagen utilizada como avatar para este contacto, limitada a 1024x1024 px"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,help:stock_dispenser.field_stock_dispenser_property_supplier_payment_term_id
+msgid "This payment term will be used instead of the default one for purchase orders and vendor bills"
+msgstr "Este plazo de pago se utiliza en lugar de la opción por defecto para las órdenes de compra y facturas de proveedores"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,help:stock_dispenser.field_stock_dispenser_property_payment_term_id
+msgid "This payment term will be used instead of the default one for sale orders and customer invoices"
+msgstr "Este plazo de pago será usada en lugar de la predeterminada para los pedidos de venta y facturas de clientes"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,help:stock_dispenser.field_stock_dispenser_property_product_pricelist
+msgid "This pricelist will be used, instead of the default one, for sales to the current partner"
+msgstr "Esta tarifa se utilizará, en lugar de la por defecto, para las ventas de la empresa actual."
+
+#. module: stock_dispenser
+#: model:ir.model.fields,help:stock_dispenser.field_stock_dispenser_property_stock_customer
+msgid "This stock location will be used, instead of the default one, as the destination location for goods you send to this partner"
+msgstr "Se utilizará esta ubicación de existencias, en lugar de la ubicación por defecto, como la ubicación de destino para enviar mercancías a esta empresa"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,help:stock_dispenser.field_stock_dispenser_property_stock_supplier
+msgid "This stock location will be used, instead of the default one, as the source location for goods you receive from the current partner"
+msgstr "Se utilizará esta ubicación de valores, en lugar de la que viene por defecto, ya que la ubicación de origen de los bienes que reciben de la actual pareja"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_tz
+msgid "Timezone"
+msgstr "Zona horaria"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_tz_offset
+msgid "Timezone offset"
+msgstr "Compensación zona horaria"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_title
+msgid "Title"
+msgstr "Título"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_total_invoiced
+msgid "Total Invoiced"
+msgstr "Facturación Total"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_debit
+msgid "Total Payable"
+msgstr "Total a Pagar"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_credit
+msgid "Total Receivable"
+msgstr "Total por cobrar"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,help:stock_dispenser.field_stock_dispenser_credit
+msgid "Total amount this customer owes you."
+msgstr "La cantidad total que le corresponde pagar al cliente."
+
+#. module: stock_dispenser
+#: model:ir.model.fields,help:stock_dispenser.field_stock_dispenser_debit
+msgid "Total amount you have to pay to this vendor."
+msgstr "La cantidad total que tiene que pagar a este proveedor."
+
+#. module: stock_dispenser
+#: model:ir.model,name:stock_dispenser.model_stock_picking
+msgid "Transfer"
+msgstr "Transferir"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_message_unread
+msgid "Unread Messages"
+msgstr "Mensajes sin leer"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_message_unread_counter
+msgid "Unread Messages Counter"
+msgstr "Contador de mensajes sin leer"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_unreconciled_aml_ids
+msgid "Unreconciled aml ids"
+msgstr "Ids AML irreconciliables"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_use_parent_address
+msgid "Use Company Address"
+msgstr "Utilizar la dirección de la empresa"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,help:stock_dispenser.field_stock_dispenser_login
+msgid "Used to log into the system"
+msgstr "Utilizado para conectarse al sistema."
+
+#. module: stock_dispenser
+#: model:ir.model.fields,help:stock_dispenser.field_stock_dispenser_type
+msgid "Used to select automatically the right address according to the context in sales and purchases documents."
+msgstr "﻿Utilizado para seleccionar automáticamente la dirección correcta según el contexto en documentos de ventas y compras."
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_user_id
+msgid "User"
+msgstr "Usuario"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_log_ids
+msgid "User log entries"
+msgstr "Registros de entrada de usuarios"
+
+#. module: stock_dispenser
+#: model:ir.ui.view,arch_db:stock_dispenser.view_stock_dispenser_form
+msgid "Username"
+msgstr "Nombre de Usuario"
+
+#. module: stock_dispenser
+#: model:ir.model,name:stock_dispenser.model_res_users
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_user_ids
+msgid "Users"
+msgstr "Usuarios"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,help:stock_dispenser.field_stock_dispenser_currency_id
+msgid "Utility field to express amount currency"
+msgstr "Campo de utilidad para expresar la cantidad de moneda"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_property_stock_supplier
+msgid "Vendor Location"
+msgstr "Ubicación de Proveedor"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_property_supplier_payment_term_id
+msgid "Vendor Payment Term"
+msgstr "Términos de Pago del Proveedor"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_website
+msgid "Website"
+msgstr "Sitio Web"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,help:stock_dispenser.field_stock_dispenser_website
+msgid "Website of Partner or Company"
+msgstr "Web de la empresa o de la compañía"
+
+#. module: stock_dispenser
+#: model:ir.ui.view,arch_db:stock_dispenser.view_stock_dispenser_form
+msgid "You are creating a new user dispenser. After saving, the user will receive an invite email containing a link to set its password."
+msgstr "Esta creando un nuevo usuario surtidor de almacén. Después de guardar, el usuario recibirá un correo de invitación que contiene un link para establecer su contraseña."
+
+#. module: stock_dispenser
+#: model:ir.ui.view,arch_db:stock_dispenser.view_stock_dispenser_form
+msgid "You will be able to define additional access rights by editing the newly created user under the Settings / Users menu."
+msgstr "Podrá definir reglas de acceso adicionales editando el recién creado usuario bajo el menú Configuración / Usuarios."
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_zip
+msgid "Zip"
+msgstr "Código postal"
+
+#. module: stock_dispenser
+#: model:ir.ui.view,arch_db:stock_dispenser.view_stock_dispenser_form
+msgid "email@yourcompany.com"
+msgstr "email@yourcompany.com"
