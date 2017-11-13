@@ -5,9 +5,12 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+
+## [1.2.0] - 2017-11-12
 ### changed
 - Adds model stock.dispenser inheriting from model res.users.
 - Adds views for configure stock dispensers.
+- Adds button for activation/inactivation of dispensers.
 
 ## [1.1.0] - 2017-08-30
 ### added
