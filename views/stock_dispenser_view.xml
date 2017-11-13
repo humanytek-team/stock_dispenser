@@ -10,6 +10,15 @@
               <form string="Dispensers">
                   <sheet>
                       <field name="id" invisible="1"/>
+                      <div class="oe_button_box" name="button_box">
+                          <button
+                            name="toggle_active"
+                            type="object"
+                            class="oe_stat_button"
+                            icon="fa-check">
+                              <field name="active" widget="boolean_button" options='{"terminology": "active"}'/>
+                          </button>
+                      </div>
                       <div class="oe_form_box_info oe_text_center" style="margin-bottom: 10px" attrs="{'invisible': [('id', '>', 0)]}">
                           You are creating a new user dispenser. After saving, the user will receive an invite email containing a link to set its password.
                       </div>

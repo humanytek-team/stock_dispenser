@@ -19,6 +19,7 @@ class StockDispenser(models.Model):
         'res.users', 'User', ondelete='cascade', required=True)
     stock_picking_ids = fields.One2many(
         'stock.picking', 'dispenser_user_id', 'Stock pickings')
+    active_and_free = fields.Boolean('Recently activated and free')
 
     @api.model
     def create(self, vals):
