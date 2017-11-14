@@ -2,7 +2,7 @@
 # Copyright 2017 Humanytek - Manuel Marquez <manuel@humanytek.com>
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html)
 
-from openerp import fields, models
+from openerp import api, fields, models
 
 
 class StockPicking(models.Model):
@@ -12,6 +12,12 @@ class StockPicking(models.Model):
         comodel_name='stock.dispenser',
         string='Dispenser',
         domain=[('is_stock_user', '=', True)])
+
+    user_dispenser_id = fields.Many2one(
+        comodel_name='res.users',
+        string='User of dispenser',
+        compute='_compute_user_dispenser_id',
+        store=True)
 
     env_user_is_stock_manager = fields.Boolean(
         string='Is a stock manager?',
@@ -34,3 +40,10 @@ class StockPicking(models.Model):
         if env_user_is_stock_manager:
             stock_picking_ids = self.search([]).mapped('id')
         return [('id', 'in', stock_picking_ids)]
+
+    @api.depends('dispenser_user_id')
+    def _compute_user_dispenser_id(self):
+        """ Computes value of field user_dispenser_id. """
+
+        for picking in self:
+            picking.user_dispenser_id = picking.dispenser_user_id.user_id
