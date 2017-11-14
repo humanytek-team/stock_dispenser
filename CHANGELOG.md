@@ -6,6 +6,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+## [1.3.1] - 2017-11-14
+### changed
+- Adds security over model stock.dispenser.
+- Adds translate of new terms in es_MX.
+
 ## [1.3.0] - 2017-11-13
 ### added
 - Filter "My orders by deliver" for dispensers and Group By "Dispenser" for stock managers.
