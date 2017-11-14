@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+## [1.3.0] - 2017-11-13
+### added
+- Filter "My orders by deliver" for dispensers and Group By "Dispenser" for stock managers.
+
 ## [1.2.0] - 2017-11-12
 ### changed
 - Adds model stock.dispenser inheriting from model res.users.

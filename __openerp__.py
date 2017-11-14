@@ -11,7 +11,7 @@
     'author': "Humanytek",
     'website': "http://www.humanytek.com",
     'category': 'Stock',
-    'version': '1.2.0',
+    'version': '1.3.0',
     'depends': ['stock', 'stock_is_stock_user'],
     'data': [
         'views/stock_dispenser_view.xml',
