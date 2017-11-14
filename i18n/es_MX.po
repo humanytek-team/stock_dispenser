@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 9.0e-20170815\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-12 20:33+0000\n"
-"PO-Revision-Date: 2017-11-12 16:41-0400\n"
+"POT-Creation-Date: 2017-11-14 21:59+0000\n"
+"PO-Revision-Date: 2017-11-14 18:14-0400\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -116,6 +116,11 @@ msgstr "Cuenta bancaria de pagos"
 #: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_bank_ids
 msgid "Banks"
 msgstr "Bancos"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,help:stock_dispenser.field_stock_dispenser_barcode
+msgid "BarCode"
+msgstr "Código de Barras"
 
 #. module: stock_dispenser
 #: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_barcode
@@ -280,6 +285,7 @@ msgid "Default Values"
 msgstr "Valores por Omisión"
 
 #. module: stock_dispenser
+#: model:ir.ui.view,arch_db:stock_dispenser.view_picking_search_dispenser
 #: model:ir.ui.view,arch_db:stock_dispenser.view_stock_dispenser_search
 msgid "Dispenser"
 msgstr "Surtidor"
@@ -540,6 +546,11 @@ msgid "Mobile"
 msgstr "Móvil"
 
 #. module: stock_dispenser
+#: model:ir.ui.view,arch_db:stock_dispenser.view_picking_search_dispenser
+msgid "My Orders by Deliver"
+msgstr "Mis Ordenes por Entregar"
+
+#. module: stock_dispenser
 #: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_name
 msgid "Name"
 msgstr "Nombre"
@@ -662,6 +673,11 @@ msgstr ""
 "Política para recibir correos electrónicos para los nuevos mensajes insertados en su bandeja de entrada personal\n"
 "- Nunca: No se enviará ningún correo\n"
 "- Todos los mensajes: Se enviará un correo para cada notificación que reciba en su bandeja de entrada"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_active_and_free
+msgid "Recently activated and free"
+msgstr "Recently activated and free"
 
 #. module: stock_dispenser
 #: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_alias_force_thread_id

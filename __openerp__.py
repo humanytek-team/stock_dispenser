@@ -11,9 +11,10 @@
     'author': "Humanytek",
     'website': "http://www.humanytek.com",
     'category': 'Stock',
-    'version': '1.3.0',
+    'version': '1.3.1',
     'depends': ['stock', 'stock_is_stock_user'],
     'data': [
+        'security/ir.model.access.csv',
         'views/stock_dispenser_view.xml',
         'views/stock_picking_view.xml',
     ],
