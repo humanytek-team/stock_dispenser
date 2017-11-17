@@ -2,7 +2,8 @@
 # Copyright 2017 Humanytek - Manuel Marquez <manuel@humanytek.com>
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html)
 
-from openerp import api, fields, models
+from openerp import api, fields, models, _
+from openerp.exceptions import ValidationError
 
 
 class StockPicking(models.Model):
@@ -23,6 +24,10 @@ class StockPicking(models.Model):
         string='Is a stock manager?',
         compute='_compute_is_stock_manager',
         search='_search_env_user_is_stock_manager')
+
+    allow_validate = fields.Boolean(
+        string='Allow validate picking',
+        compute='_compute_allow_validate')
 
     def _compute_is_stock_manager(self):
         """ Computes value of field env_user_is_stock_manager """
@@ -47,3 +52,27 @@ class StockPicking(models.Model):
 
         for picking in self:
             picking.user_dispenser_id = picking.dispenser_user_id.user_id
+
+    @api.depends('env_user_is_stock_manager')
+    def _compute_allow_validate(self):
+        """ Computes value of field allow_validate. """
+
+        for sp in self:
+
+            if sp.env_user_is_stock_manager:
+                sp.allow_validate = True
+
+            else:
+                if sp.user_dispenser_id == self.env.user:
+                    sp.allow_validate = True
+
+    @api.multi
+    def do_new_transfer(self):
+
+        for pick in self:
+            if not pick.allow_validate:
+                raise ValidationError(
+                    _('Does not have permission to validate this transfer, is assigned to another dispenser.')
+                )
+
+        return super(StockPicking, self).do_new_transfer()

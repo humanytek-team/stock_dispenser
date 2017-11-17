@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 9.0e-20170815\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-14 21:59+0000\n"
-"PO-Revision-Date: 2017-11-14 18:14-0400\n"
+"POT-Creation-Date: 2017-11-17 22:09+0000\n"
+"PO-Revision-Date: 2017-11-17 18:12-0400\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -91,6 +91,11 @@ msgstr "Alias del dominio"
 #: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_alias_model_id
 msgid "Aliased Model"
 msgstr "Modelo Alias"
+
+#. module: stock_dispenser
+#: model:ir.model.fields,field_description:stock_dispenser.field_stock_picking_allow_validate
+msgid "Allow validate picking"
+msgstr "Allow validate picking"
 
 #. module: stock_dispenser
 #: model:ir.model.fields,help:stock_dispenser.field_stock_dispenser_partner_bank_company_id
@@ -302,6 +307,12 @@ msgstr "Surtidores"
 #: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_display_name
 msgid "Display Name"
 msgstr "Nombre desplegado"
+
+#. module: stock_dispenser
+#: code:addons/stock_dispenser/models/stock_picking.py:75
+#, python-format
+msgid "Does not have permission to validate this transfer, is assigned to another dispenser."
+msgstr "No esta autorizado para validar esta transferencia, esta asignada a otro surtidor."
 
 #. module: stock_dispenser
 #: model:ir.model.fields,field_description:stock_dispenser.field_stock_dispenser_email
