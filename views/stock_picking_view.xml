@@ -13,7 +13,7 @@
                   <field
                     name="dispenser_user_id"
                     attrs="{'readonly': [('env_user_is_stock_manager', '=', False)]}"/>
-                </field>
+                </field>                
 
             </field>
         </record>
