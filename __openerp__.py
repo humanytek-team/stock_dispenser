@@ -11,7 +11,7 @@
     'author': "Humanytek",
     'website': "http://www.humanytek.com",
     'category': 'Stock',
-    'version': '9.0.1.3.2',
+    'version': '9.0.1.3.3',
     'depends': ['stock', 'stock_is_stock_user'],
     'data': [
         'security/ir.model.access.csv',

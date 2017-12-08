@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+## [9.0.1.3.3] - 2017-12-08
+### changed
+- Applies validation of dispenser only in pickings outgoing.
+
 ## [9.0.1.3.2] - 2017-11-17
 ### changed
 - Adds restriction to dispenser to can only validate its own pickings.
