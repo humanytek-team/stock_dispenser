@@ -70,7 +70,7 @@ class StockPicking(models.Model):
     def do_new_transfer(self):
 
         for pick in self:
-            if not pick.allow_validate:
+            if not pick.allow_validate and pick.picking_type_code == 'outgoing':
                 raise ValidationError(
                     _('Does not have permission to validate this transfer, is assigned to another dispenser.')
                 )
